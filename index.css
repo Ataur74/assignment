@@ -1,0 +1,109 @@
+*{
+    margin: 0;
+    padding: 0;
+} 
+
+  .banner-container { display: flex;
+                      height: fit-content;
+                      width: auto;
+                      background-color: #dad3d79c;
+                    
+                      justify-content: space-evenly;
+
+  }
+
+  .image-size { right: 15px;
+                left: 15px;
+                width: 500px;
+  }
+
+ h1{ margin-top: 120px;
+    margin-left: 50px;
+    margin-right: 50px;
+    color: rgb(32, 30, 30);
+    font-size: 60px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+ }
+
+  p {margin-left: 50px;
+    margin-top: 30px;
+    color: rgba(48, 43, 43, 0.729);
+    font-size: 16px;   
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+
+  }
+ .button-btn {
+          background-color:rgba(231, 39, 71, 0.715);
+          color:white;
+          font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+          text-align:center;
+          font-size: 15px;
+          width: 110px;
+          margin-top: 30px;
+          margin-left: 50px;
+          padding: 10px;
+          border: none;
+          border-radius: 8px;
+ }
+       .nice-ones {  font-size: 25px; 
+                     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;  
+                                           height: fit-content;
+                      
+                      
+                      text-align: center; 
+                      padding-top: 10px;
+                      padding-bottom: 30px;
+                      
+                                                           
+
+       }
+
+         .sale-off { margin-top: 120px;
+          margin-left: 50px;
+          margin-right: 50px;
+          color: rgb(32, 30, 30);
+          font-size: 60px;
+          font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+
+
+
+         }
+
+          .image-feature { display: flex;
+                          align-items: center;
+                        
+                          background-color: none;
+                           
+            
+            width: auto;
+            background-color: #ffffff;
+          
+            justify-content: space-between;
+
+
+          }
+            .flower-1, .flower-2, .flower-3 { background-color: pink;
+                             border-radius: 50% 50% 0 0;
+
+            }
+   
+       .features  {  display: flex;
+                                height: 200px;
+                                width: 70vw;
+                            
+                                background-color:none;
+                                justify-content: center;
+                                
+                               align-items: center;
+
+        } 
+
+             
+
+
+            .layout  { background-color: #fff;
+
+
+
+
+            }
