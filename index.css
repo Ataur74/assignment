@@ -112,10 +112,11 @@ body>section {
 }
 
 /* featured flower styles */
- .featured-flowers .section-title {
+.featured-flowers .section-title {
   margin-top: 178px;
 
- }
+}
+
 .featured-flowers .img-container {
   display: flex;
   margin-top: 48px;
@@ -127,7 +128,21 @@ body>section {
   flex-direction: column;
 
 }
+ .featured-flowers .flower {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+ }
 
+ .featured-flowers .caption {
+  color: #272727;
+text-align: center;
+font-size: 24px;
+font-weight: 700;
+line-height: 35px;
+margin-top: 32px;
+
+ }
 .featured-flowers .flower-1 {
   background-color: #A7216226;
   width: 464px;
@@ -157,3 +172,39 @@ body>section {
   justify-content: center;
   align-items: end;
 }
+
+footer {
+  display: flex;
+  background-color: #111010;
+  color: white;
+  justify-content: center;
+  padding: 128px;
+}
+
+.text-primary {
+  color: #E55473;
+}
+
+footer .section-title {
+  color: white;
+  text-align: center;
+
+}
+
+footer .section-description {
+  color: #FFFFFFE5;
+  text-align: center;
+  margin-top: 24px;
+}
+ footer .copyright {
+text-align: center;
+color: #FFFFFF66;
+margin-top: 32px;
+
+ }
+  footer .section-container {
+display: flex;
+justify-content: center;
+align-items: center;
+
+  }
