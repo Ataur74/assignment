@@ -7,7 +7,7 @@
 
 header {
   display: flex;
-  background-color: #dad3d79c;
+  background-color: #E554731A;
   justify-content: center;
 
 }
@@ -112,6 +112,9 @@ body>section {
 }
 
 /* featured flower styles */
+.featured-flowers {
+  background-color: white; 
+}
 .featured-flowers .section-title {
   margin-top: 178px;
 
@@ -208,3 +211,29 @@ justify-content: center;
 align-items: center;
 
   }
+  /* Deal css */
+  .deal{
+    background-color:#E554730D;
+    margin-top: 128px;
+  }
+ .deal .primary-button {
+  margin-top: 32px;
+ }
+ .deal .section-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+ }
+ .deal .image {
+margin: 100px 0;
+width: 50%;
+display: flex;
+justify-content: center;
+ }
+ .deal .deal-text {
+  width: 50%;
+  display: flex;
+justify-content: center;
+flex-direction: column;
+align-items: center;
+ }
